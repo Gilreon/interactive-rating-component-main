@@ -110,3 +110,8 @@ display: block;
       background-color: #ffffff;
       color: #fc7613;
     }
+
+    .selected {
+        background-color: #fa7618;
+        color: #ffffff;
+    }
