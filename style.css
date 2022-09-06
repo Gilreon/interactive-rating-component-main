@@ -1,6 +1,112 @@
-.container {
-    background: gray;
-    width: 375px;
-    height: 250px;
-    display: flex;
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+body {
+    background-color: #141519;
+    font-family: 'Overpass', sans-serif;
+
 }
+
+
+.container {
+    background: #1f2630;
+    width: 425px;
+    height: 395px;
+    display: inline-table;
+    max-width: 500px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 35px;
+}
+
+.imgContainer{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #222e3d;
+    
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.star {
+    padding: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+
+.btnContainer {
+
+    display: flex;
+    justify-content: center ;
+
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+p {
+    color: gray;
+    font-size: 19px;
+    text-align: left;
+    padding-left: 20px;
+    margin: 5px;
+}
+
+.btnContainer {
+
+    margin: 15px;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-evenly ;
+    width:55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #222e3d;
+    color: gray;
+    margin-left: 15px;
+    align-items: center;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #7d8798;
+}
+
+.submitBtn {
+display: block;
+  width: 65%;
+  border-radius: 20px;
+  border: none;
+  background-color: #fc7613;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
+  color: #fad4a8;
+  font-weight:600;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.submitBtn:hover {
+      background-color: #ffffff;
+      color: #fc7613;
+    }
