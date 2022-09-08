@@ -20,6 +20,7 @@ body {
     right: 0;
     margin: auto;
     border-radius: 35px;
+    
 }
 
 .imgContainer{
@@ -115,3 +116,62 @@ display: block;
         background-color: #fa7618;
         color: #ffffff;
     }
+
+
+    /* Submit Card */
+
+    .phone {
+        display: block;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        margin: 0 auto;
+    }
+
+    .containerSubmit {
+        background: #1f2630;
+    width: 425px;
+    height: 395px;
+    display: inline-table;
+    max-width: 500px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 35px;
+    visibility: hidden;
+    }
+
+    .containerSubmit h1 {
+        text-align: center;
+        font-weight: 400;
+        font-size:30px;
+    }
+
+    .containerSubmit p {
+        text-align: center;
+        margin: 18px;
+        padding: 0 10px 20px 10px;
+    }
+
+    .selectedBtn {
+        display: block;
+          width: 40%;
+          border-radius: 20px;
+          border: none;
+          background-color: #292e33;
+          padding: 14px 28px;
+          font-size: 16px;
+          cursor: pointer;
+          text-align: center;
+          margin: 0 auto;
+          color: #a4693b;
+          font-weight:600;
+          letter-spacing: 1px;
+          font-size: 14px;
+
+    }
+
+
+
