@@ -1,5 +1,9 @@
 
-let button = document.getElementsByClassName("btn");
+let button = document.getElementsByClassName("rating-btn")
+let submitButton = document.getElementsByClassName("submitBtn")
+let thanksContainer = document.getElementsByClassName("containerSubmit")
+let mainContainer = document.getElementsByClassName("container")
+
 
 let addSelectClass = function(){
     removeSelectClass();
@@ -16,13 +20,10 @@ for (let i =0; i < button.length; i++){
     button[i].addEventListener("click",addSelectClass)
 }
 
-
-
-document.getElementsByClassName("selectedBtn").addEventListener("click", displayCard);
-
-function displayCard() {
-
-    document.getElementsByClassName("container").style.visibility = "hidden";
-    document.getElementsByClassName("containerSubmit").style.visibility = "visible";
-}
+submitButton[0].addEventListener("click", () => {
+    thanksContainer[0].classList.remove('hidden')
+    mainContainer[0].classList.add('hidden')
+})
     
+
+

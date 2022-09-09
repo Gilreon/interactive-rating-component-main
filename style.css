@@ -71,7 +71,7 @@ p {
     padding-bottom:10px;
 }
 
-.btn {
+.rating-btn {
     display: flex;
     justify-content: space-evenly ;
     width:55px;
@@ -84,7 +84,7 @@ p {
 
 }
 
-.btn:hover {
+.rating-btn:hover {
     cursor: pointer;
     color: #ffffff;
     background-color: #7d8798;
@@ -140,9 +140,11 @@ display: block;
     right: 0;
     margin: auto;
     border-radius: 35px;
-    visibility: hidden;
     }
 
+    .hidden {
+        visibility: hidden;
+    }
     .containerSubmit h1 {
         text-align: center;
         font-weight: 400;
