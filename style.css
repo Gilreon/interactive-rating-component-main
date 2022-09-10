@@ -83,7 +83,9 @@ p {
     align-items: center;
 
 }
-
+button {
+    border: none;
+}
 .rating-btn:hover {
     cursor: pointer;
     color: #ffffff;
@@ -165,7 +167,6 @@ display: block;
           background-color: #292e33;
           padding: 14px 28px;
           font-size: 16px;
-          cursor: pointer;
           text-align: center;
           margin: 0 auto;
           color: #a4693b;
